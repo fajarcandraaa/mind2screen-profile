@@ -46,6 +46,20 @@ const Hero = () => {
 
   const text = "The Best Support System For Your Business".split(" ");
 
+  const slidingTextVariants = {
+    initial: {
+      x: 0,
+    },
+    animate: {
+      x: "-200%",
+      transition: {
+        repeat: Infinity,
+        repeatType: "mirror",
+        duration: 20,
+      },
+    },
+  };
+
   return (
     <div className="hero">
         <div className="wrapper">
@@ -68,6 +82,9 @@ const Hero = () => {
                 </h1>
             </div>
         </div>
+        <motion.div className="slidingTextContainer" variants={slidingTextVariants} initial="initial" animate="animate">
+          MIND2SCREEN TECHNOLOGY
+        </motion.div>
         <div className="imageContainer">
             <div className="image-stack">
                 <motion.img

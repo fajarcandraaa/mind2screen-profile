@@ -15,7 +15,11 @@ const Test = () => {
     ]
     return (
         <div className="course">
-            <motion.ul initial="hidden" animate="visible" variants={variant}>
+            <motion.ul 
+                initial="hidden" 
+                animate="visible" 
+                variants={variant}
+            >
                 {items.map((item,i) => (
                     <motion.li key={item} variants={variant} custom={i}>
                         {item}

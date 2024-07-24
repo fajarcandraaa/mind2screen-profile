@@ -7,9 +7,6 @@ const Links = () => {
         "Home",
         "About Us",
         "Product and Services",
-        "Our Team",
-        "Our Advantages",
-        "Vision and Mission",
         "Contact",
     ]
 

@@ -57,5 +57,15 @@
         display: none; // Hide images on smaller screens
       }
     }
+
+    .slidingTextContainer{
+      position: absolute;
+      font-size: 40vh;
+      bottom: -100px;
+      white-space: nowrap;
+      color: #ffffff24;
+      width: 50%;
+      font-weight: bold;
+    }
   }
   
