@@ -64,7 +64,7 @@ const Hero = () => {
     <div className="hero">
         <div className="wrapper">
             <div className="textContainer">
-                <motion.img className='logoStroke' src="/mind2screen/logo_stroke-2.png" initial={{ opacity: 0, pathLength: 0 }} animate={{ opacity: 1, pathLength: 1 }} transition={{ duration: 0.5, delay: 0.25 }} alt=""/>
+                <motion.img className='logoStroke' src="/public/mind2screen/logo_stroke-2.png" initial={{ opacity: 0, pathLength: 0 }} animate={{ opacity: 1, pathLength: 1 }} transition={{ duration: 0.5, delay: 0.25 }} alt=""/>
                 <h1>
                 {text.map((el, i) => (
                     <motion.span
@@ -89,7 +89,7 @@ const Hero = () => {
             <div className="image-stack">
                 <motion.img
                 className="image"
-                src="/mind2screen/mind2screen_bg2.png"
+                src="/public/mind2screen/mind2screen_bg2.png"
                 style={{ zIndex: 1 }}
                 variants={container}
                 initial="hidden"
@@ -98,7 +98,7 @@ const Hero = () => {
                 />
                 <motion.img
                 className="image"
-                src="/mind2screen/mind2screen_char2.png"
+                src="/public/mind2screen/mind2screen_char2.png"
                 style={{ zIndex: 2 }}
                 alt=""
                 />
