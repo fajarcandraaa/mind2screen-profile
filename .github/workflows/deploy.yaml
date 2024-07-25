@@ -14,7 +14,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        uses: actions/deploy@v1
+        uses: actions/deploy
         with:
           provider: pages
           github-token: ${{ secrets.PROFILETOKEN }}
