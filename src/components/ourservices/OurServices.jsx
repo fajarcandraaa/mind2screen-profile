@@ -6,25 +6,25 @@ const items = [
     {
         id:1,
         title:"Software Development",
-        img:"/public/mind2screen/softwareDev.png",
+        img:"/mind2screen/softwareDev.png",
         desc:"We design and develop software tailored to the specific needs of our clients."
     },
     {
         id:2,
         title:"System Integration",
-        img:"/public/mind2screen/systemInt.png",
+        img:"/mind2screen/systemInt.png",
         desc:"We integrate various systems within our clients' companies to enhance efficiency and effectiveness."
     },
     {
         id:3,
         title:"Management & Maintenance System",
-        img:"/public/mind2screen/manage&maintenance.png",
+        img:"/mind2screen/manage&maintenance.png",
         desc:"We provide manage & maintenance services to ensure the smooth operation and security of our clients' systems."
     },
     {
         id:4,
         title:"IT Consulting",
-        img:"/public/mind2screen/itConsult.png",
+        img:"/mind2screen/itConsult.png",
         desc:"We offer IT consulting services to help our clients select and implement the right technological solutions."
     },
 ];
