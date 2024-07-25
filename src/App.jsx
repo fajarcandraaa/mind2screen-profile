@@ -1,7 +1,9 @@
 import Test from "./Test";
 import "./app.scss"
+import AboutUs from "./components/aboutus/AboutUs";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
+import OurServices from "./components/ourservices/OurServices";
 import Parallax from "./components/parallax/Parallax";
 
 const App = () => {
@@ -11,9 +13,9 @@ const App = () => {
       <Hero/>
     </section>
     <section id="parallaxAboutUs"><Parallax type="aboutUs"/></section>
-    <section>About Us</section>
+    <section><AboutUs/></section>
     <section id="parallaxServices"><Parallax type="services"/></section>
-    <section>Products and Services</section>
+    <OurServices/>
     <section id="Contact">Contact</section>
     {/* <Test/>
     <Test/> */}
