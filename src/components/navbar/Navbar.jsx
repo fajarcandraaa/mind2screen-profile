@@ -15,10 +15,10 @@ const Navbar = () => {
                         Mind2Screen
                 </motion.span>
                 <div className="social">
-                    <a href="#"><img src="/facebook.png" alt="" /></a>
-                    <a href="#"><img src="/instagram.png" alt="" /></a>
-                    <a href="#"><img src="/youtube.png" alt="" /></a>
-                    <a href="#"><img src="/dribbble.png" alt="" /></a>
+                    <a href="#"><img src={`${import.meta.env.BASE_URL}/facebook.png`} alt="" /></a>
+                    <a href="#"><img src={`${import.meta.env.BASE_URL}/instagram.png`} alt="" /></a>
+                    <a href="#"><img src={`${import.meta.env.BASE_URL}/youtube.png`} alt="" /></a>
+                    <a href="#"><img src={`${import.meta.env.BASE_URL}/dribbble.png`} alt="" /></a>
                 </div>
             </div>
         </div>

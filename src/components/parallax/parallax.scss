@@ -17,7 +17,7 @@
     }
 
     .topSpace{
-        background-image: url("/mind2screen/parallax/bg1.png");
+        background-image: url('@images/mind2screen/parallax/bg1.png');
         background-size: cover;
         background-position: top;
         width: 100%;
@@ -26,7 +26,7 @@
         z-index: 1;
     }
     .midSpace{
-        background-image: url("/mind2screen/parallax/main.png");
+        background-image: url('@images/mind2screen/parallax/main.png');
         background-size: cover;
         background-position: center;
         width: 100%;
@@ -35,7 +35,7 @@
         z-index: 3;
     }
     .bottomSpace{
-        background-image: url("/mind2screen/parallax/bg2.png");
+        background-image: url('@images/mind2screen/parallax/bg2.png');
         background-size: cover;
         background-position: bottom;
         width: 100%;
