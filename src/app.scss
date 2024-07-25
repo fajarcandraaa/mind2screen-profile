@@ -29,17 +29,17 @@ section{
     @media (max-width: 738px) {
       @content;
     }
-  }
-  @mixin tablet {
+}
+@mixin tablet {
     @media (max-width: 1024px) {
       @content;
     }
-  }
-  @mixin desktop {
+}
+@mixin desktop {
     @media (max-width: 1366px) {
       @content;
     }
-  }
+}
 
 // .course{
 //     height: 100vh;

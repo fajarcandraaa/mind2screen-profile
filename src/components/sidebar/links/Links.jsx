@@ -6,7 +6,7 @@ const Links = () => {
     const items = [
         "Home",
         "About Us",
-        "Product and Services",
+        "Services",
         "Contact",
     ]
 
